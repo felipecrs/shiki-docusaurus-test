@@ -73,6 +73,7 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
+          {to: '/markdown-page', label: 'Markdown Page', position: 'left'},
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
