@@ -1,0 +1,7 @@
+# hide-next-line
+docsTitle: My File
+# hide-start
+docsDescription: |
+    My File description
+# hide-end
+this: should-show

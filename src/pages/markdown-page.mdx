@@ -1,0 +1,30 @@
+---
+title: Markdown page example
+---
+
+# Markdown page example
+
+Plain code block:
+
+```yaml title="myfile.yaml"
+# hide-next-line
+docsTitle: My File
+# hide-start
+docsDescription: |
+    My File description
+# hide-end
+this: should-show
+```
+
+import CodeBlock from "@theme/CodeBlock";
+import File from "!!raw-loader!./myfile.yaml";
+
+MDX CodeBlock:
+
+<CodeBlock
+  language="yaml"
+  title="myfile.yaml"
+  showLineNumbers
+>
+  {File}
+</CodeBlock>
